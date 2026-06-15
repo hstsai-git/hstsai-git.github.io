@@ -59,12 +59,23 @@ p {
 	clear: both;
 }
 /* add your styles below here */
-img.figure {
+figure {
 	float: right;
-	margin: 10px;
+	width: 222px;
+	margin: 15px 10px 5px 10px;
+}
+figure img {
 	border: 1px solid #666;
 	background-color: #ccc;
 	padding: 10px;
+}
+figcaption {
+	font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	background-color: linear-gradient(to bottom, #e6f3ff, white);
+	border: 1px dashed #666;
+	padding: 5px;
 }
 
 
